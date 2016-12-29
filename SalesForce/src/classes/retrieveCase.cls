@@ -15,4 +15,9 @@ public class retrieveCase {
                 
 
     }
+    public String GetDateTime()
+    {
+    	 return '';	 
+ 		 
+    }
 }
