@@ -1,5 +1,5 @@
 <apex:page controller="retrieveCase" tabStyle="Case">
-	<apex:pageBlock>
+	<apex:pageBlock >
          {!AccountName}'nın Cases 
          
         <apex:pageBlockTable value="{!cases}" var="c">

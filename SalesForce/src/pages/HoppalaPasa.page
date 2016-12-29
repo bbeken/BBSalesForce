@@ -1,6 +1,6 @@
 <apex:page showHeader="true" standardController="Account"
 	tabStyle="account">
-	<apex:form>
+	<apex:form >
 
 		<apex:pageBlock title="Hello {!$User.FirstName}!">
             You are viewing the {!account.name} account. <p />
