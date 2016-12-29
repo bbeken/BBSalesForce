@@ -6,7 +6,8 @@ public class retrieveCase {
 
     public List<Case> getCases() {
         return [SELECT status, subject FROM Case
-                WHERE Account.name ='bbeken' AND status != 'Closed' limit 5];
+                WHERE Account.name ='bbeken'  AND status != 'Closed' limit 5];
+                
     }
     public String GetAccountName()
     {
